@@ -40,13 +40,16 @@ const Navigation = () => {
     <Nav>
       <NavList>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Travel</Link>
         </li>
         <li>
-          <Link to="/mybooks">My Books</Link>
+          <Link to="/business">Business</Link>
         </li>
         <li>
-          <Link to="/favorites">My Books</Link>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
         </li>
       </NavList>
     </Nav>

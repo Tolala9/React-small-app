@@ -8,17 +8,19 @@ import {
 
 import Layout from "../components/Layout";
 
-import Home from "./home";
-import Favorites from "./favorites";
-import MyBooks from "./mybooks";
+import Travel from "./travel";
+import About from "./about";
+import Business from "./business";
+import Contact from "./contact";
 
 const Webpages = () => {
   return (
     <Router>
       <Layout>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/mybooks" component={MyBooks} />
-        <Route exact path="/favorites" component={Favorites} />
+        <Route exact path="/" component={Travel} />
+        <Route exact path="/business" component={Business} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
       </Layout>
     </Router>
   );
